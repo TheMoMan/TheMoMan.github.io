@@ -1,4 +1,3 @@
 RewriteEngine On
-RewriteBase /
-RewriteCond %{HTTP_HOST} ^www.a-mo.io$ [NC]
+RewriteCond %{HTTP_HOST} !^www.a-mo.io$ [NC]
 RewriteRule ^(.*)$ http://a-mo.io/$1 [R=301, L]
