@@ -1,0 +1,45 @@
+.presence {
+  text-align: center;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  .ui.grid {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+.logo {
+  font-size: 30px;
+  color: #ccc;
+  
+  :hover {
+    color: #fff;
+  }
+}
+
+.ui.bottom.popup.visible {
+  background: transparent;
+  border: transparent;
+  box-shadow: none;
+  color: #fff;
+  height: 0;
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+
+  // &:before {
+  //   width: 1px;
+  //   height: 10px;
+  //   transform: none;
+  //   box-shadow: none;
+  //   visibility: hidden;
+  // }
+}
+
+a:hover {
+  color: #ccc !important;
+}

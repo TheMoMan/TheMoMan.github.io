@@ -1,5 +1,4 @@
 import React from 'react';
-import './stylesheets/app.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { Home, Osu } from './pages';
 
