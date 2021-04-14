@@ -9,37 +9,26 @@
   .ui.grid {
     margin-top: 0;
     margin-bottom: 0;
+    height: 58px;
   }
 }
 
-.logo {
+.hoverable {
   font-size: 30px;
   color: #ccc;
   
   :hover {
     color: #fff;
   }
-}
 
-.ui.bottom.popup.visible {
-  background: transparent;
-  border: transparent;
-  box-shadow: none;
-  color: #fff;
-  height: 0;
-  margin: 0;
-  padding-top: 0;
-  padding-bottom: 0;
-
-  // &:before {
-  //   width: 1px;
-  //   height: 10px;
-  //   transform: none;
-  //   box-shadow: none;
-  //   visibility: hidden;
-  // }
+  .label {
+    font-size: 16px;
+    margin-left: -100%;
+    margin-right: -100%;
+    padding-top: 5px;
+  }
 }
 
 a:hover {
-  color: #ccc !important;
+  color: #fff !important;
 }

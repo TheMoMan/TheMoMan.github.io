@@ -1,6 +1,6 @@
 import React from 'react';
 import '../stylesheets/components/home-banner.component.scss'
-import { Grid, GridColumn } from 'semantic-ui-react';
+import { Grid } from 'semantic-ui-react';
 
 class HomeBannerComponent extends React.Component {
   render() {

@@ -1,6 +1,6 @@
 import React from 'react';
 import '../stylesheets/pages/home.scss';
-import { HomeBannerComponent, PresenceComponent } from '../components'
+import { HomeBannerComponent, PresenceComponent, FooterComponent } from '../components'
 
 class Home extends React.Component {
   render() {
@@ -8,6 +8,7 @@ class Home extends React.Component {
       <div className={'home-page'}>
         <HomeBannerComponent />
         <PresenceComponent />
+        <FooterComponent />
       </div>
     );
   };
