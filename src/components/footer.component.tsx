@@ -5,7 +5,7 @@ class FooterComponent extends React.Component {
   render() {
     return (
       <footer>
-        {'mail@a-mo.io'}
+        <a href={'mailto:mail@a-mo.io'}>{'mail@a-mo.io'}</a>
       </footer>
     );
   }
