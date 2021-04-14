@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/themoman.github.io/static/css/main.e29d269f.chunk.css",
+    "main.js": "/themoman.github.io/static/js/main.d26a2d6c.chunk.js",
+    "main.js.map": "/themoman.github.io/static/js/main.d26a2d6c.chunk.js.map",
+    "runtime-main.js": "/themoman.github.io/static/js/runtime-main.acd36c5c.js",
+    "runtime-main.js.map": "/themoman.github.io/static/js/runtime-main.acd36c5c.js.map",
+    "static/css/2.447feeb0.chunk.css": "/themoman.github.io/static/css/2.447feeb0.chunk.css",
+    "static/js/2.fd50c5cf.chunk.js": "/themoman.github.io/static/js/2.fd50c5cf.chunk.js",
+    "static/js/2.fd50c5cf.chunk.js.map": "/themoman.github.io/static/js/2.fd50c5cf.chunk.js.map",
+    "index.html": "/themoman.github.io/index.html",
+    "static/css/2.447feeb0.chunk.css.map": "/themoman.github.io/static/css/2.447feeb0.chunk.css.map",
+    "static/css/main.e29d269f.chunk.css.map": "/themoman.github.io/static/css/main.e29d269f.chunk.css.map",
+    "static/js/2.fd50c5cf.chunk.js.LICENSE.txt": "/themoman.github.io/static/js/2.fd50c5cf.chunk.js.LICENSE.txt",
+    "static/media/semantic.min.css": "/themoman.github.io/static/media/outline-icons.ddae9b1b.woff",
+    "static/media/home-banner.component.scss": "/themoman.github.io/static/media/home.f3bc5139.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.acd36c5c.js",
+    "static/css/2.447feeb0.chunk.css",
+    "static/js/2.fd50c5cf.chunk.js",
+    "static/css/main.e29d269f.chunk.css",
+    "static/js/main.d26a2d6c.chunk.js"
+  ]
+}
