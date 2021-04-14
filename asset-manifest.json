@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/themoman.github.io/static/css/main.e29d269f.chunk.css",
-    "main.js": "/themoman.github.io/static/js/main.d26a2d6c.chunk.js",
-    "main.js.map": "/themoman.github.io/static/js/main.d26a2d6c.chunk.js.map",
+    "main.js": "/themoman.github.io/static/js/main.bfa172ff.chunk.js",
+    "main.js.map": "/themoman.github.io/static/js/main.bfa172ff.chunk.js.map",
     "runtime-main.js": "/themoman.github.io/static/js/runtime-main.acd36c5c.js",
     "runtime-main.js.map": "/themoman.github.io/static/js/runtime-main.acd36c5c.js.map",
     "static/css/2.447feeb0.chunk.css": "/themoman.github.io/static/css/2.447feeb0.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.447feeb0.chunk.css",
     "static/js/2.fd50c5cf.chunk.js",
     "static/css/main.e29d269f.chunk.css",
-    "static/js/main.d26a2d6c.chunk.js"
+    "static/js/main.bfa172ff.chunk.js"
   ]
 }
