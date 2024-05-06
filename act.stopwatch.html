@@ -24,7 +24,7 @@
       }
 
       .inactive {
-        text-shadow: 0 0 10px #000, 0 0 10px #000, 0 0 10px #000;
+        text-shadow: 0 0 10px #fff, 0 0 10px #000, 0 0 10px #000;
       }
 
       .burst {
@@ -53,43 +53,45 @@
       startOverlayEvents();
 
       function updateZone(data) {
-          currentZone = data.zoneName;
+        currentZone = data?.zoneName;
       }
 
       function updateEncounter(data) {
-          const encounterElem = document.getElementById('encounter');
+        if (!data) return;
 
-          const durationText = data.Encounter.duration;
-          const stopwatchClass = getStopwatchClass(
-              durationText,
-              data.isActive == "true",
-              data.Encounter.CurrentZoneName == currentZone,
-          );
+        const encounterElem = document.getElementById('encounter');
 
-          encounterElem.innerText = durationText;
-          encounterElem.className = stopwatchClass;
+        const durationText = data.Encounter.duration;
+        const stopwatchClass = getStopwatchClass(
+          durationText,
+          data.isActive == "true",
+          data.Encounter?.CurrentZoneName == currentZone,
+        );
+
+        encounterElem.innerText = durationText;
+        encounterElem.className = stopwatchClass;
       }
 
       function getDurationDigits(duration) {
-          const digits = duration.split(':');
+        const digits = duration.split(':');
 
-          return {
-              minutes: parseInt(digits[0]),
-              seconds: parseInt(digits[1]),
-          };
+        return {
+          minutes: parseInt(digits[0]),
+          seconds: parseInt(digits[1]),
+        };
       }
 
       function getStopwatchClass(duration, isActive = true, isSameZone = true) {
-          if (!isSameZone) return 'hidden';
-          if (!isActive) return 'inactive';
+        if (!isSameZone) return 'hidden';
+        if (!isActive) return 'inactive';
 
-          const { minutes, seconds } = getDurationDigits(duration);
+        const { minutes, seconds } = getDurationDigits(duration);
 
-          if ((minutes + 1) % 2 == 0 && seconds >= 45)
-            return 'preburst';
-          if ((minutes) % 2 == 0 && seconds <= 15)
-            return 'burst';
-          return 'no-burst';
+        if ((minutes + 1) % 2 == 0 && seconds >= 45)
+          return 'preburst';
+        if ((minutes) % 2 == 0 && seconds <= 15)
+          return 'burst';
+        return 'no-burst';
       }
     </script>
   </head>
