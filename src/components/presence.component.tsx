@@ -53,7 +53,7 @@ class PresenceComponent extends React.Component {
     return (
       <div className={'presence'}>
         <Grid>
-          <Grid.Row columns={5}>
+          <Grid.Row columns={6}>
             <Grid.Column>
               <PresenceIconComponent
                 icon={<FiMail />}
