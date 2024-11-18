@@ -1,6 +1,7 @@
 import React from 'react';
 import '../stylesheets/components/presence.component.scss'
 import { FaYoutube, FaTwitter, FaGithub, FaRegDotCircle } from 'react-icons/fa';
+import { FaBluesky } from 'react-icons/fa6';
 import { FiMail } from 'react-icons/fi';
 import { Grid } from 'semantic-ui-react';
 
@@ -65,6 +66,13 @@ class PresenceComponent extends React.Component {
                 icon={<FaYoutube />}
                 url={'https://www.youtube.com/c/AMo_osu'}
                 label={'YouTube - A Mo'}
+              />
+            </Grid.Column>
+            <Grid.Column>
+              <PresenceIconComponent
+                icon={<FaBluesky />}
+                url={'https://bsky.app/profile/a-mo.io/'}
+                label={'Bluesky @a-mo.io'}
               />
             </Grid.Column>
             <Grid.Column>
